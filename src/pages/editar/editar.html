@@ -11,10 +11,10 @@
       
         <ion-card-content>
 
-            <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+            <ion-searchbar (ionInput)="getPosts(getPosts)"></ion-searchbar>
             <ion-list>
               <ion-item *ngFor="let p of posts">
-                {{ title }}
+                {{ p.title }}
               </ion-item>
             </ion-list>
 
