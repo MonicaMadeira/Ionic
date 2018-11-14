@@ -1,3 +1,38 @@
-page-home {
+ion-card-content.card-content.card-content-md {
+    background-color: #f5f5dc;
+}
 
+.card-md {
+    background: #f8f8f8 !important;
+}
+
+ion-card-content.card-content.card-content-md {
+    padding: 15px 15px !important;
+}
+
+ion-card.card.card-md {
+    background: #f8f8f8 !important;
+}
+
+ion-card.card.card-md {
+    margin: 10px;
+    border-radius: 2px;
+    width: calc(100% - 20px);
+    font-size: 1.4rem;
+    background: #f8f8f8;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+ion-label.label.label-md {
+    white-space: normal;
+}
+
+.item-md {
+    padding-bottom: 0px !important;
+    padding-right: 0px !important;
+}
+
+ion-label.label.label-md {
+    margin-top: auto;
 }

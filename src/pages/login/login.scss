@@ -1,0 +1,45 @@
+.toolbar-title {
+    text-align: center !important;
+}
+
+ion-app.md [padding] .scroll-content {
+     padding: 10px !important; 
+}
+
+
+.card-content-md {
+    padding: 0 0 !important;
+    font-size: 1.4rem !important;
+    line-height: 1.5 !important;
+}
+
+button.button.button-md.button-default.button-default-md {
+    margin: 10px !important;
+}
+
+.card-md{
+    background: #488aff !important
+}
+
+.button-md{
+    color: #488aff !important;
+    background: #fff !important;
+    border-radius: 5px !important;
+}
+
+ion-card.card.card-md {
+    margin-top: 30px !important;
+}
+
+ion-item.item.item-block.item-md.item-input.item-label-floating.ng-pristine.ng-valid.ng-touched {
+    padding-bottom: 20px !important;
+}
+
+.item-md{
+    padding-bottom: 20px !important;
+    padding-right: 16px !important;
+} 
+
+ion-card-content.card-content.card-content-md {
+    background-color: #488aff;
+}

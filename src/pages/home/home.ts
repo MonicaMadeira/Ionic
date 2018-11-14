@@ -1,5 +1,8 @@
+import { Provider } from './../../providers/provider/provider';
+import { LoginPage } from './../login/login';
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { NavController, MenuController } from 'ionic-angular';
+import { App } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -7,8 +10,18 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  posts: any;
 
+  constructor(public navCtrl: NavController, public menuCtrl: MenuController, public Provider: Provider) {
+    this.ListPost();
+  }
+
+  ListPost(){
+    this.Provider.getPostagem()
+      .then(data=>{
+        this.posts = data;
+        console.log(this.posts);
+      });
   }
 
 }
